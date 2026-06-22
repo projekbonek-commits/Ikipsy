@@ -12,7 +12,7 @@ import {
 const formatDollar = (amount) => {
   return new Intl.NumberFormat('en-US', {
     style: 'currency',
-    currency: 'USD',
+    currency: 'IDR',
     minimumFractionDigits: 2,
     maximumFractionDigits: 2
   }).format(amount);
@@ -42,9 +42,9 @@ export default function App() {
   const [data, setData] = useState({
     profile: { name: 'Trader Pemula', bio: 'Fokus nabung Xiaomi 13', photo: null, email: '' },
     balance: 180000, 
-    goal: { name: 'Xiaomi 13', target: 6000000 },
+    goal: { name: 'Xiaomi 13', target: 6.000.000 },
     accounts: [],
-    transactions: [{ id: '1', type: 'add', amount: 180000, date: new Date().toISOString(), desc: 'Initial Balance' }]
+    transactions: [{ id: '1', type: 'add', amount: 180.000, date: new Date().toISOString(), desc: 'Initial Balance' }]
   });
 
   const [activeTab, setActiveTab] = useState('home');
