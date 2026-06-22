@@ -41,10 +41,10 @@ export default function App() {
   // Initial Data State
   const [data, setData] = useState({
     profile: { name: 'Trader Pemula', bio: 'Fokus nabung Xiaomi 13', photo: null, email: '' },
-    balance: 180000, 
-    goal: { name: 'Xiaomi 13', target: 6000000 },
+    balance: 18000, 
+    goal: { name: 'Xiaomi 13', target: 600000 },
     accounts: [],
-    transactions: [{ id: '1', type: 'add', amount: 180000, date: new Date().toISOString(), desc: 'Initial Balance' }]
+    transactions: [{ id: '1', type: 'add', amount: 18000, date: new Date().toISOString(), desc: 'Initial Balance' }]
   });
 
   const [activeTab, setActiveTab] = useState('home');
