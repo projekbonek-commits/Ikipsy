@@ -12,9 +12,9 @@ import {
 const formatDollar = (amount) => {
   return new Intl.NumberFormat('en-US', {
     style: 'currency',
-    currency: 'IDR',
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2
+    currency: 'USD',
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0
   }).format(amount);
 };
 
