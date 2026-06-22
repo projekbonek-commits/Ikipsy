@@ -42,9 +42,9 @@ export default function App() {
   const [data, setData] = useState({
     profile: { name: 'Trader Pemula', bio: 'Fokus nabung Xiaomi 13', photo: null, email: '' },
     balance: 18000, 
-    goal: { name: 'Xiaomi 13', target: 600000 },
+    goal: { name: 'Xiaomi 13', target: 6000 },
     accounts: [],
-    transactions: [{ id: '1', type: 'add', amount: 18000, date: new Date().toISOString(), desc: 'Initial Balance' }]
+    transactions: [{ id: '1', type: 'add', amount: 180, date: new Date().toISOString(), desc: 'Initial Balance' }]
   });
 
   const [activeTab, setActiveTab] = useState('home');
