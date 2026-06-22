@@ -41,7 +41,7 @@ export default function App() {
   // Initial Data State
   const [data, setData] = useState({
     profile: { name: 'Trader Pemula', bio: 'Fokus nabung Xiaomi 13', photo: null, email: '' },
-    balance: 18000, 
+    balance: 180, 
     goal: { name: 'Xiaomi 13', target: 6000 },
     accounts: [],
     transactions: [{ id: '1', type: 'add', amount: 180, date: new Date().toISOString(), desc: 'Initial Balance' }]
